@@ -11,7 +11,7 @@ nodemon({
     script: 'app.js',
     ext: 'js',
     env: {
-        port:8000
+        port:8080
     },
 ignore: ['./node_module/**']
 })
