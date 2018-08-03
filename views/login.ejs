@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Second Treasures Bookstore </title>
+        <link rel="stylesheet" type ="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css"/>
+        <link rel="stylesheet" type ="text/css" href="../stylesheets/app.css"/>
+        </head>
+        <body>
+                <header><% include ./partials/header %></header>
+                
+                <div class="page-login">
+                        <div class="ui centered grid container">
+                          <div class="nine wide column">
+                            <div class="ui icon warning message">
+                                <i class="thumbs up outline icon"></i>
+                                <div class="content">
+                                      
+                                  <div class="header">
+                                    Welcome to the Second Treasures Bookstore!!!!!!
+                                  </div>
+                                  <p>Please enter your user credentials</p>
+                                </div>
+                              </div>
+                            <div class="ui fluid card">
+                              <div class="content">
+                              <form class="ui form" action="/login" method="POST">
+                                <div class="field">
+                                  <label>User</label>
+                                  <input type="text" name="username" placeholder="User">
+                                </div>
+                                <div class="field">
+                                  <label>Password</label>
+                                  <input type="password" name="password" placeholder="Password">
+                                </div>
+                                <button class="ui primary labeled icon button" type="submit">
+                                  <i class="unlock alternate icon"></i>
+                                  Submit
+                                </button>
+                                
+                              </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                          <div class="ui message">
+                            New to Bookstore? <a href="/register">Register</a>
+                          </div>
+                        </div>
+                      </div>
+    </body>
+    
+</html>
+
+

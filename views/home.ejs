@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Second Treasures Bookstore</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+</style>
+</head>
+
+<body>
+    <div><% include ./partials/header %></div>
+       
+              
+              <div class="jumbotron">
+                <div class="container text-center">
+                  <h1>Second Treasures Bookstore </h1>      
+                  <p>RESTfull webAPI for Second Treasures Bookstore </p>
+                </div>
+              </div>
+                
+              <div class="container-fluid bg-3 text-center">    
+                <h3>Please register yourself to use this webAPI</h3><br>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <p>/api/Books : will get you the list of all books in JSON format</p>
+                    </div>
+                  <div class="col-sm-3"> 
+                    <p>/api/Books/?genre=Science Fiction(For Example) : will get you the list of books for that particular genre </p>
+                    
+                  </div>
+                  <div class="col-sm-3"> 
+                    <p>/api/Books/?author or id or title : will provide you the options to search for a particular book based on author, id and Title/p>
+                   
+                  </div>
+                  <div class="col-sm-3">
+                    <p>Please use POSTMAN to test the functionality of addition, updation and deletion</p>
+                 
+                  </div>
+                </div>
+              </div><br>
+              
+              
+</body>
+
+</html>

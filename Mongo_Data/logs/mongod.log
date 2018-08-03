@@ -1,0 +1,91 @@
+2018-06-30T18:49:22.763-0600 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2018-06-30T18:49:22.764-0600 I CONTROL  [initandlisten] MongoDB starting : pid=18336 port=27017 dbpath=D:\Applications\Book_API\Mongo_Data 64-bit host=Admin-PC
+2018-06-30T18:49:22.764-0600 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-06-30T18:49:22.765-0600 I CONTROL  [initandlisten] db version v4.0.0
+2018-06-30T18:49:22.765-0600 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-06-30T18:49:22.765-0600 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-06-30T18:49:22.765-0600 I CONTROL  [initandlisten] modules: none
+2018-06-30T18:49:22.765-0600 I CONTROL  [initandlisten] build environment:
+2018-06-30T18:49:22.767-0600 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-06-30T18:49:22.767-0600 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-30T18:49:22.767-0600 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-30T18:49:22.767-0600 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\Applications\Book_API\Mongo_Data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\Applications\Book_API\Mongo_Data\logs\mongod.log" } }
+2018-06-30T18:49:22.769-0600 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7631M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-06-30T18:49:22.817-0600 I STORAGE  [initandlisten] WiredTiger message [1530406162:816386][18336:140716683115600], txn-recover: Set global recovery timestamp: 0
+2018-06-30T18:49:22.829-0600 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-06-30T18:49:22.864-0600 I CONTROL  [initandlisten] 
+2018-06-30T18:49:22.864-0600 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-06-30T18:49:22.864-0600 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-06-30T18:49:22.864-0600 I CONTROL  [initandlisten] 
+2018-06-30T18:49:22.865-0600 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: 00b81574-8a6f-4d0f-a222-6cef55daf872
+2018-06-30T18:49:22.886-0600 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.0
+2018-06-30T18:49:22.891-0600 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 323a6f2d-1da3-4471-ac3b-f9bc986bd45f
+2018-06-30T18:49:23.191-0600 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/Applications/Book_API/Mongo_Data/diagnostic.data'
+2018-06-30T18:49:23.193-0600 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: be2db59d-32e8-415c-8514-7fc865134dd5
+2018-06-30T18:49:23.193-0600 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-06-30T18:49:23.193-0600 I STORAGE  [initandlisten] Service running
+2018-06-30T18:49:23.228-0600 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2018-06-30T18:49:23.228-0600 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2018-06-30T18:49:23.231-0600 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+2018-07-01T14:44:03.371-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:64698 #1 (1 connection now open)
+2018-07-01T14:44:03.389-0600 I NETWORK  [conn1] received client metadata from 127.0.0.1:64698 conn1: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T14:47:18.690-0600 I NETWORK  [conn1] end connection 127.0.0.1:64698 (0 connections now open)
+2018-07-01T14:47:21.085-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:64739 #2 (1 connection now open)
+2018-07-01T14:47:21.117-0600 I NETWORK  [conn2] received client metadata from 127.0.0.1:64739 conn2: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T14:48:18.458-0600 I NETWORK  [conn2] end connection 127.0.0.1:64739 (0 connections now open)
+2018-07-01T14:48:21.534-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:64758 #3 (1 connection now open)
+2018-07-01T14:48:21.561-0600 I NETWORK  [conn3] received client metadata from 127.0.0.1:64758 conn3: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T14:49:55.407-0600 I NETWORK  [conn3] end connection 127.0.0.1:64758 (0 connections now open)
+2018-07-01T14:49:58.542-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:64777 #4 (1 connection now open)
+2018-07-01T14:49:58.566-0600 I NETWORK  [conn4] received client metadata from 127.0.0.1:64777 conn4: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T14:50:44.709-0600 I NETWORK  [conn4] end connection 127.0.0.1:64777 (0 connections now open)
+2018-07-01T14:50:46.970-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:64795 #5 (1 connection now open)
+2018-07-01T14:50:46.994-0600 I NETWORK  [conn5] received client metadata from 127.0.0.1:64795 conn5: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T15:01:11.636-0600 I NETWORK  [conn5] end connection 127.0.0.1:64795 (0 connections now open)
+2018-07-01T15:01:15.251-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:65087 #6 (1 connection now open)
+2018-07-01T15:01:15.279-0600 I NETWORK  [conn6] received client metadata from 127.0.0.1:65087 conn6: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T15:17:21.510-0600 I NETWORK  [conn6] end connection 127.0.0.1:65087 (0 connections now open)
+2018-07-01T15:17:23.829-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:65462 #7 (1 connection now open)
+2018-07-01T15:17:23.861-0600 I NETWORK  [conn7] received client metadata from 127.0.0.1:65462 conn7: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T15:19:09.568-0600 I NETWORK  [conn7] end connection 127.0.0.1:65462 (0 connections now open)
+2018-07-01T15:19:12.991-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:65476 #8 (1 connection now open)
+2018-07-01T15:19:13.015-0600 I NETWORK  [conn8] received client metadata from 127.0.0.1:65476 conn8: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T15:52:25.711-0600 I NETWORK  [conn8] end connection 127.0.0.1:65476 (0 connections now open)
+2018-07-01T15:53:07.328-0600 I NETWORK  [listener] connection accepted from 127.0.0.1:50319 #9 (1 connection now open)
+2018-07-01T15:53:07.352-0600 I NETWORK  [conn9] received client metadata from 127.0.0.1:50319 conn9: { driver: { name: "nodejs", version: "3.0.10" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v6.9.5, LE, mongodb-core: 3.0.9" }
+2018-07-01T17:26:28.867-0600 I NETWORK  [conn9] end connection 127.0.0.1:50319 (0 connections now open)
+2018-07-08T11:46:32.158-0600 I COMMAND  [ftdc] serverStatus was very slow: { after basic: 0, after asserts: 0, after backgroundFlushing: 0, after connections: 0, after dur: 0, after extra_info: 0, after freeMonitoring: 0, after globalLock: 474, after locks: 1118, after logicalSessionRecordCache: 1118, after network: 1118, after opLatencies: 1118, after opcounters: 1118, after opcountersRepl: 1118, after repl: 1118, after security: 1118, after storageEngine: 1118, after tcmalloc: 1118, after transactions: 1118, after wiredTiger: 1118, at end: 1118 }
+2018-07-10T22:02:24.250-0600 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_PRESHUTDOWN request from Windows Service Control Manager, will terminate after current cmd ends
+2018-07-10T22:02:24.263-0600 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2018-07-10T22:02:24.304-0600 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2018-07-10T22:02:24.306-0600 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2018-07-10T22:02:24.330-0600 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2018-07-10T22:02:24.496-0600 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2018-07-10T22:02:24.496-0600 I CONTROL  [serviceShutdown] now exiting
+2018-07-10T22:03:05.873-0600 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-10T22:03:06.604-0600 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2018-07-10T22:03:06.605-0600 I CONTROL  [initandlisten] MongoDB starting : pid=4136 port=27017 dbpath=D:\Applications\Book_API\Mongo_Data 64-bit host=Admin-PC
+2018-07-10T22:03:06.605-0600 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten] modules: none
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten] build environment:
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-10T22:03:06.606-0600 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\4.0\bin\mongod.cfg", net: { bindIp: "127.0.0.1", port: 27017 }, service: true, storage: { dbPath: "D:\Applications\Book_API\Mongo_Data", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "D:\Applications\Book_API\Mongo_Data\logs\mongod.log" } }
+2018-07-10T22:03:06.616-0600 I STORAGE  [initandlisten] Detected data files in D:\Applications\Book_API\Mongo_Data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-10T22:03:06.616-0600 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7631M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-10T22:03:06.890-0600 I STORAGE  [initandlisten] WiredTiger message [1531281786:889876][4136:140706981624912], txn-recover: Main recovery loop: starting at 1/432640
+2018-07-10T22:03:07.137-0600 I STORAGE  [initandlisten] WiredTiger message [1531281787:136615][4136:140706981624912], txn-recover: Recovering log 1 through 2
+2018-07-10T22:03:07.269-0600 I STORAGE  [initandlisten] WiredTiger message [1531281787:269492][4136:140706981624912], txn-recover: Recovering log 2 through 2
+2018-07-10T22:03:07.375-0600 I STORAGE  [initandlisten] WiredTiger message [1531281787:375394][4136:140706981624912], txn-recover: Set global recovery timestamp: 0
+2018-07-10T22:03:07.428-0600 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-10T22:03:07.503-0600 I CONTROL  [initandlisten] 
+2018-07-10T22:03:07.503-0600 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-10T22:03:07.503-0600 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-10T22:03:07.503-0600 I CONTROL  [initandlisten] 
+2018-07-10T22:03:08.242-0600 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'D:/Applications/Book_API/Mongo_Data/diagnostic.data'
+2018-07-10T22:03:08.243-0600 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-10T22:03:08.243-0600 I STORAGE  [initandlisten] Service running

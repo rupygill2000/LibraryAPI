@@ -1,0 +1,15 @@
+i.icon {
+    font-size: 4em;
+}
+.container.main {
+    margin-top: 7.0em;
+}
+body > .grid {
+    height: 100%;
+  }
+  .image {
+    margin-top: -100px;
+  }
+  .column {
+    max-width: 450px;
+  }
